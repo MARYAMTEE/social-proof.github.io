@@ -108,9 +108,19 @@ body{
      background-repeat: no-repeat, no-repeat;
      background-position: top left, bottom right;    
     height: 100%;
-    padding: 100px 175px;
+    padding: 100px;
 }
 
+.icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 7px;
+    width: 66%;
+    padding: 0 30px;
+    border-radius: 7px;
+    background-color: var(--Light-Magenta);
+}
     .container-proof{
         display: grid;
         align-items: center;
@@ -118,7 +128,7 @@ body{
     }
 
      .proof-left{
-        margin-right: 130px;
+        margin-right: 150px;
         text-align: start;
     } 
 
